@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
   devise_for :users
-  resources :cards
-  root "cards#index"
+  resources :card_lists
+  root "card_lists#index"
 end
